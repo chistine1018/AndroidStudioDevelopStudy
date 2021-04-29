@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Wedding Suggestion</string>
+
+//sex
+    <string name="sex">Sex</string>
+    <string name="sex_hint">Boy or Girl</string>
+    <string name="sex_male">Male</string>
+
+//age
+    <string name="age">Age</string>
+    <string name="age_hint">How old are u</string>
+
+
+//suggest info
+    <string name="suggestion">Suggest</string>
+    <string name="suggestion_not_hurry">Not Hurry</string>
+    <string name="suggestion_married">Get Married</string>
+    <string name="suggestion_begin_find_couple">Begin Find Couple</string>
+
+
+//
+    <string name="OK">OK</string>
+</resources>
