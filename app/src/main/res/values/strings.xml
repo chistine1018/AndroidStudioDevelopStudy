@@ -1,23 +1,37 @@
 <resources>
-    <string name="app_name">Wedding Suggestion</string>
 
-//sex
+    //sex
+    <string name="app_name">Wedding Suggestion</string>
     <string name="sex">Sex</string>
     <string name="sex_hint">Boy or Girl</string>
-    <string name="sex_male">Male</string>
+    <string name="sex_male">男</string>
+    <string name="sex_female">女</string>
 
-//age
+    //age
+    <string name="male_age_range1">小於28歲</string>
+    <string name="male_age_range2">28~33歲</string>
+    <string name="male_age_range3">大於33歲</string>
+    <string name="female_age_range1">小於25歲</string>
+    <string name="female_age_range2">25~30歲</string>
+    <string name="female_age_range3">大於30歲</string>
+
+
     <string name="age">Age</string>
+
+
+    //suggest info
     <string name="age_hint">How old are u</string>
-
-
-//suggest info
     <string name="suggestion">Suggest</string>
     <string name="suggestion_not_hurry">Not Hurry</string>
-    <string name="suggestion_married">Get Married</string>
     <string name="suggestion_begin_find_couple">Begin Find Couple</string>
+    <string name="suggestion_married">Get Married</string>
 
 
-//
     <string name="OK">OK</string>
+    <string name="spn_sex_select">請選擇性別</string>
+    <string-array name="sex_list">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
 </resources>
