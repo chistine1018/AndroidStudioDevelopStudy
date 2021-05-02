@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StudyApplication">
-        <activity android:name=".MoraActivity"></activity>
+        <activity android:name=".MaterialDesignActivity"></activity>
+        <activity android:name=".MoraActivity" />
         <activity android:name=".CheckBoxActivity" />
         <activity android:name=".NumberPickerActivity" />
         <activity android:name=".RadioGroupActivity" />
