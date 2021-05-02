@@ -19,7 +19,7 @@ public class NormalActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Intent intent = new Intent(NormalActivity.this, RadioGroupActivity.class);
+        Intent intent = new Intent(NormalActivity.this, NumberPickerActivity.class);
         startActivity(intent);
         initView();
         mBtnOK.setOnClickListener(OKListener);
