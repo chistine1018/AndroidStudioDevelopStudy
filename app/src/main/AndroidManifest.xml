@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StudyApplication">
-        <activity android:name=".NumberPickerActivity"></activity>
+        <activity android:name=".CheckBoxActivity"></activity>
+        <activity android:name=".NumberPickerActivity" />
         <activity android:name=".RadioGroupActivity" />
         <activity android:name=".SpinnerActivity" />
         <activity android:name=".NormalActivity">

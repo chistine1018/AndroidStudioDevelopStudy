@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckBoxActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp">
+
+
+        <CheckBox
+            android:id="@+id/chkBoxMusic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="音樂"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/chkBoxSing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="唱歌"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/chkBoxDance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跳舞"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/chkBoxTravel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="旅行"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/chkBoxReading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="閱讀"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/chkBoxWriting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="寫作"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/chkBoxClimbing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="攀岩"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/chkBoxSwim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="游泳"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/chkBoxExercise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="運動"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/chkBoxFitness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="健身"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/chkBoxPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="攝影"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/chkBoxEating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="美食"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/chkBoxPainting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="繪畫"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/chkBoxChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="聊天"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/chkBoxPlayComputer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="玩電腦"
+            android:textSize="30sp" />
+        <Button
+            android:id="@+id/btn_OK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/OK" />
+        <TextView
+            android:id="@+id/tv_select_result"
+            android:layout_width="wrap_content"
+            android:text="123"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView>
