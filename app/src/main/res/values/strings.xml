@@ -29,13 +29,25 @@
 
     <string name="OK">OK</string>
     <string name="spn_sex_select">請選擇性別</string>
+    <string name="your_hobby">你的興趣 ：  </string>
+
+
     <string-array name="sex_list">
         <item>男</item>
         <item>女</item>
     </string-array>
 
+    //MoraGame
+    <string name="action_settings">Settings</string>
+    <string name="prompt_com_play">電腦出拳：</string>
+    <string name="prompt_my_play">玩家出拳：</string>
+    <string name="play_scissors">剪刀</string>
+    <string name="play_stone">石頭</string>
+    <string name="play_paper">布</string>
+    <string name="player_win">恭喜，你贏了！</string>
+    <string name="player_lose">很可惜，你輸了！</string>
+    <string name="player_draw">雙方平手！</string>
+    <string name="prompt_title">和電腦猜拳</string>
+    <string name="result">判斷輸贏：</string>
 
-
-
-    <string name="your_hobby">你的興趣 ：  </string>
 </resources>

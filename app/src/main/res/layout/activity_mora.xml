@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoraActivity">
+
+
+    <Button
+        android:id="@+id/mora_btn_Scissors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mora_tv_MyPlay"
+        android:layout_alignLeft="@id/mora_tv_MyPlay"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="@string/play_scissors"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/mora_btn_Paper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mora_btn_Scissors"
+        android:layout_alignLeft="@id/mora_tv_MyPlay"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:text="@string/play_paper"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/mora_btn_Stone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mora_btn_Paper"
+        android:layout_alignLeft="@id/mora_tv_MyPlay"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="@string/play_stone"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/mora_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:text="@string/prompt_title"
+        android:textColor="#FF00FF"
+        android:textSize="40sp"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mora_tv_txtCom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mora_tv_title"
+        android:layout_alignLeft="@+id/mora_tv_title"
+        android:paddingBottom="20dp"
+        android:text="@string/prompt_com_play"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/mora_tv_MyPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mora_tv_title"
+        android:layout_alignRight="@+id/mora_tv_title"
+        android:paddingBottom="20dp"
+        android:text="@string/prompt_my_play"
+        android:textSize="20sp" />
+
+
+
+
+    <TextView
+        android:id="@+id/mora_tv_txtComPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mora_tv_txtCom"
+        android:layout_alignLeft="@+id/mora_tv_txtCom"
+        android:textColor="#FF00FF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/mora_tv_Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mora_btn_Stone"
+        android:paddingBottom="20dp"
+        android:text="@string/result"
+        android:layout_alignLeft="@+id/mora_tv_txtCom"
+        android:textSize="20sp" />
+
+</RelativeLayout>
