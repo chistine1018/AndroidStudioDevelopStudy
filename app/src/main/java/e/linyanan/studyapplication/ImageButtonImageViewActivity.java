@@ -4,29 +4,30 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
-public class MoraActivity extends AppCompatActivity {
-    private Button mBtnScissors, mBtnStone, mBtnPaper;
-    private TextView mTxtComPlay, mTxtResult;
+public class ImageButtonImageViewActivity extends AppCompatActivity {
+    private ImageButton mImgBtnScissors, mImgBtnStone, mImgBtnPaper;
+    private ImageView mIvComPlay;
+    private TextView mTxtResult;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mora);
+        setContentView(R.layout.activity_image_button_image_view);
         initView();
-        mBtnScissors.setOnClickListener(onClickListener);
-        mBtnPaper.setOnClickListener(onClickListener);
-        mBtnStone.setOnClickListener(onClickListener);
-
+        mImgBtnScissors.setOnClickListener(onClickListener);
+        mImgBtnStone.setOnClickListener(onClickListener);
+        mImgBtnPaper.setOnClickListener(onClickListener);
     }
 
     public void initView() {
-        mBtnScissors = findViewById(R.id.mora_btn_Scissors);
-        mBtnPaper = findViewById(R.id.mora_btn_Paper);
-        mBtnStone = findViewById(R.id.mora_btn_Stone);
-        mTxtComPlay = findViewById(R.id.mora_tv_txtComPlay);
+        mImgBtnScissors = findViewById(R.id.mora_imgbtn_Scissors);
+        mImgBtnPaper = findViewById(R.id.mora_imgbtn_Paper);
+        mImgBtnStone = findViewById(R.id.mora_imgbtn_Stone);
+        mIvComPlay = findViewById(R.id.mora_img_ComPlay);
         mTxtResult = findViewById(R.id.mora_tv_Result);
     }
 
@@ -52,7 +53,7 @@ public class MoraActivity extends AppCompatActivity {
     public void JudgeResult(int MyPlay) {
         int iComPlay = (int) (Math.random() * 3 + 1);
         if (iComPlay == 1) {
-            mTxtComPlay.setText(R.string.play_scissors);
+            mIvComPlay.setImageResource(R.drawable.scissors);
             if (MyPlay == 1) {
                 mTxtResult.setText(getString(R.string.result) + getString(R.string.player_draw));
             } else if (MyPlay == 2) {
@@ -61,7 +62,7 @@ public class MoraActivity extends AppCompatActivity {
                 mTxtResult.setText(getString(R.string.result) + getString(R.string.player_lose));
             }
         } else if (iComPlay == 2) {
-            mTxtComPlay.setText(R.string.play_stone);
+            mIvComPlay.setImageResource(R.drawable.stone);
             if (MyPlay == 1) {
                 mTxtResult.setText(getString(R.string.result) + getString(R.string.player_lose));
             } else if (MyPlay == 2) {
@@ -70,7 +71,7 @@ public class MoraActivity extends AppCompatActivity {
                 mTxtResult.setText(getString(R.string.result) + getString(R.string.player_win));
             }
         } else if (iComPlay == 3) {
-            mTxtComPlay.setText(R.string.play_paper);
+            mIvComPlay.setImageResource(R.drawable.paper);
             if (MyPlay == 1) {
                 mTxtResult.setText(getString(R.string.result) + getString(R.string.player_win));
             } else if (MyPlay == 2) {
@@ -80,5 +81,4 @@ public class MoraActivity extends AppCompatActivity {
             }
         }
     }
-
 }
