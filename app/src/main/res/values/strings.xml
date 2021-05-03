@@ -45,14 +45,14 @@
     <string name="player_draw">雙方平手！</string>
     <string name="prompt_title">和電腦猜拳</string>
     <string name="result">判斷輸贏：</string>
+    <string name="btn_ripple">水波按鈕動畫</string>
+
+
+    //MaterialDesign
+    <string name="btn_normal">一般按鈕</string>
     <string-array name="sex_list">
         <item>男</item>
         <item>女</item>
     </string-array>
-
-
-    //MaterialDesign
-    <string name="btn_ripple">水波按鈕動畫</string>
-    <string name="btn_normal">一般按鈕</string>
 
 </resources>
