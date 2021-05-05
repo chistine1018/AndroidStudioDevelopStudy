@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@drawable/rolldiceone"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/rolldicetwo"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/rolldicethree"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/rolldicefour"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/rolldicefive"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/rolldicesix"
+        android:duration="100" />
+
+</animation-list>
