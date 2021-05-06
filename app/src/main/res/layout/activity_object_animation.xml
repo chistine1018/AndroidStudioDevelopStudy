@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ilnLayRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".ObjectAnimationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_rorate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="選轉文字" />
+
+        <Button
+            android:id="@+id/btn_transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="透明文字" />
+
+        <Button
+            android:id="@+id/btn_drop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="掉落文字" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_scale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="放大文字" />
+
+        <Button
+            android:id="@+id/btn_shift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="左右文字" />
+
+        <Button
+            android:id="@+id/btn_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="顏色文字" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/example"
+            android:textSize="25sp" />
+    </LinearLayout>
+</LinearLayout>

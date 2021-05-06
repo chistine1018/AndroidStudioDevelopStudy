@@ -50,15 +50,16 @@
 
     //MaterialDesign
     <string name="btn_normal">一般按鈕</string>
+    <string name="btn_roll_dice">擲骰子</string>
+
+
+    //rollDice
+    <string name="roll_result">點數：</string>
     <string-array name="sex_list">
         <item>男</item>
         <item>女</item>
     </string-array>
 
-
-    //rollDice
-    <string name="btn_roll_dice">擲骰子</string>
-    <string name="roll_result">點數：</string>
-
-
+    //ObjectAnimation
+    <string name="example">示範：</string>
 </resources>
