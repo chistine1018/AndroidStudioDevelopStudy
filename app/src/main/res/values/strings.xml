@@ -55,11 +55,21 @@
 
     //rollDice
     <string name="roll_result">點數：</string>
+    <string name="example">示範：</string>
+
+    //ObjectAnimation
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="total_set">全部局數：</string>
+
+
+    //Fragment
+    <string name="player_win_set">玩家贏：</string>
+    <string name="computer_win_set">電腦贏：</string>
+    <string name="draw">平手：</string>
     <string-array name="sex_list">
         <item>男</item>
         <item>女</item>
     </string-array>
 
-    //ObjectAnimation
-    <string name="example">示範：</string>
 </resources>

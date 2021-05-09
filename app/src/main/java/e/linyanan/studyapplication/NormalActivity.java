@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import e.linyanan.studyapplication.Fragment.FragmentActivity;
+
 public class NormalActivity extends AppCompatActivity {
     private EditText mEditSex;
     private EditText mEditAge;
@@ -19,7 +21,7 @@ public class NormalActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Intent intent = new Intent(NormalActivity.this, ObjectAnimationActivity.class);
+        Intent intent = new Intent(NormalActivity.this, FragmentActivity.class);
         startActivity(intent);
         initView();
         mBtnOK.setOnClickListener(OKListener);
