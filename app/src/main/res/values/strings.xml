@@ -67,6 +67,14 @@
     <string name="player_win_set">玩家贏：</string>
     <string name="computer_win_set">電腦贏：</string>
     <string name="draw">平手：</string>
+    <string name="show_result1">看結果1</string>
+    <string name="show_result2">看結果2</string>
+    <string name="hide_result">隱藏結果</string>
+
+
+
+
+
     <string-array name="sex_list">
         <item>男</item>
         <item>女</item>

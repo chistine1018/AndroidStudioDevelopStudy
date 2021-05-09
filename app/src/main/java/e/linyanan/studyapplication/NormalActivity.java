@@ -10,6 +10,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import e.linyanan.studyapplication.Fragment.FragmentActivity;
+import e.linyanan.studyapplication.FragmentManager.FragmentManagerActivity;
 
 public class NormalActivity extends AppCompatActivity {
     private EditText mEditSex;
@@ -21,7 +22,7 @@ public class NormalActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Intent intent = new Intent(NormalActivity.this, FragmentActivity.class);
+        Intent intent = new Intent(NormalActivity.this, FragmentManagerActivity.class);
         startActivity(intent);
         initView();
         mBtnOK.setOnClickListener(OKListener);

@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.StudyApplication">
         <activity android:name=".Fragment.FragmentActivity"></activity>
+        <activity android:name=".FragmentManager.FragmentManagerActivity"></activity>
         <activity android:name=".ObjectAnimationActivity" />
         <activity android:name=".RollDiceActivity" />
         <activity android:name=".ImageSwitcherGridViewActivity" />
