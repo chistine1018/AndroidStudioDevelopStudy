@@ -72,12 +72,20 @@
     <string name="hide_result">隱藏結果</string>
 
 
-
-
-
     <string-array name="sex_list">
         <item>男</item>
         <item>女</item>
     </string-array>
 
+    //ListActivity
+    <string-array name="weekday">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+
+    </string-array>
 </resources>

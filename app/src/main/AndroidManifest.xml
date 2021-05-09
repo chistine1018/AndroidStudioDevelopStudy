@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StudyApplication">
-        <activity android:name=".Fragment.FragmentActivity"></activity>
-        <activity android:name=".FragmentManager.FragmentManagerActivity"></activity>
+        <activity android:name=".ListActivity"></activity>
+        <activity android:name=".Fragment.FragmentActivity" />
+        <activity android:name=".FragmentManager.FragmentManagerActivity" />
         <activity android:name=".ObjectAnimationActivity" />
         <activity android:name=".RollDiceActivity" />
         <activity android:name=".ImageSwitcherGridViewActivity" />
