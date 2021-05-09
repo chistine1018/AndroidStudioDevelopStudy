@@ -2,6 +2,7 @@ package e.linyanan.studyapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ExpandableListActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -22,7 +23,7 @@ public class NormalActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Intent intent = new Intent(NormalActivity.this, ListActivity.class);
+        Intent intent = new Intent(NormalActivity.this, PraticeListActivity.class);
         startActivity(intent);
         initView();
         mBtnOK.setOnClickListener(OKListener);
