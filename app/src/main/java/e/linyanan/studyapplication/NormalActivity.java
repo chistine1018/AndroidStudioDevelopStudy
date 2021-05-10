@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import e.linyanan.studyapplication.Fragment.FragmentActivity;
 import e.linyanan.studyapplication.FragmentManager.FragmentManagerActivity;
+import e.linyanan.studyapplication.RecyclerView.RecyclerViewActivity;
 
 public class NormalActivity extends AppCompatActivity {
     private EditText mEditSex;
@@ -23,7 +24,7 @@ public class NormalActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Intent intent = new Intent(NormalActivity.this, PraticeListActivity.class);
+        Intent intent = new Intent(NormalActivity.this, RecyclerViewActivity.class);
         startActivity(intent);
         initView();
         mBtnOK.setOnClickListener(OKListener);
