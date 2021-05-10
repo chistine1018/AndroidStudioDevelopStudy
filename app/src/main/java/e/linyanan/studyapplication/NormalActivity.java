@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import e.linyanan.studyapplication.AutoCompleteTextView.AutoCompleteTextViewActivity;
 import e.linyanan.studyapplication.Fragment.FragmentActivity;
 import e.linyanan.studyapplication.FragmentManager.FragmentManagerActivity;
 import e.linyanan.studyapplication.RecyclerView.RecyclerViewActivity;
@@ -24,7 +25,7 @@ public class NormalActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Intent intent = new Intent(NormalActivity.this, RecyclerViewActivity.class);
+        Intent intent = new Intent(NormalActivity.this, AutoCompleteTextViewActivity.class);
         startActivity(intent);
         initView();
         mBtnOK.setOnClickListener(OKListener);
