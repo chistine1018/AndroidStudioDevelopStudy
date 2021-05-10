@@ -72,12 +72,23 @@
     <string name="hide_result">隱藏結果</string>
 
 
+    <string name="input_text">請輸入文字</string>
+
+    //ListActivity
+    <string name="btn_add_auto_complete_text">加入自動完成文字</string>
+
+    //AutoComplete
+    <string name="btn_clear_auto_complete_text">清除自動完成文字</string>
+    <string name="seek_bar_progress">SeekBar 的Progress值：</string>
+    <string name="rating_bar_value">RatingBar 的Value值：</string>
+
+
+    //SeekBar and RatingBar
+    <string name="rating_bar_progress">SeekBar 的Progress值：</string>
     <string-array name="sex_list">
         <item>男</item>
         <item>女</item>
     </string-array>
-
-    //ListActivity
     <string-array name="weekday">
         <item>星期日</item>
         <item>星期一</item>
@@ -88,10 +99,5 @@
         <item>星期六</item>
 
     </string-array>
-
-    //
-    <string name="input_text">請輸入文字</string>
-    <string name="btn_add_auto_complete_text">加入自動完成文字</string>
-    <string name="btn_clear_auto_complete_text">清除自動完成文字</string>
 
 </resources>
