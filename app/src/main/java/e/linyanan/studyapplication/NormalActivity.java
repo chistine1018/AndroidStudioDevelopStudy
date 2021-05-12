@@ -14,6 +14,7 @@ import e.linyanan.studyapplication.AutoCompleteTextView.AutoCompleteTextViewActi
 import e.linyanan.studyapplication.DateandTimePicker.DateAndTimePickerActivity;
 import e.linyanan.studyapplication.Fragment.FragmentActivity;
 import e.linyanan.studyapplication.FragmentManager.FragmentManagerActivity;
+import e.linyanan.studyapplication.ProgressBarAndThread.ProgressBarAndThreadActivity;
 import e.linyanan.studyapplication.RecyclerView.RecyclerViewActivity;
 import e.linyanan.studyapplication.SeekBarAndRatingBar.SeekBarAndRatingBarActivity;
 
@@ -27,7 +28,7 @@ public class NormalActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Intent intent = new Intent(NormalActivity.this, DateAndTimePickerActivity.class);
+        Intent intent = new Intent(NormalActivity.this, ProgressBarAndThreadActivity.class);
         startActivity(intent);
         initView();
         mBtnOK.setOnClickListener(OKListener);
