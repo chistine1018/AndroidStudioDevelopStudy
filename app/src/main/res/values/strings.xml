@@ -100,4 +100,9 @@
 
     </string-array>
 
+    //
+    <string name="time_picker_dialog">TimePickerDialog</string>
+    <string name="date_picker_dialog">DatePickerDialog</string>
+
+
 </resources>

@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import e.linyanan.studyapplication.AutoCompleteTextView.AutoCompleteTextViewActivity;
+import e.linyanan.studyapplication.DateandTimePicker.DateAndTimePickerActivity;
 import e.linyanan.studyapplication.Fragment.FragmentActivity;
 import e.linyanan.studyapplication.FragmentManager.FragmentManagerActivity;
 import e.linyanan.studyapplication.RecyclerView.RecyclerViewActivity;
@@ -26,7 +27,7 @@ public class NormalActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Intent intent = new Intent(NormalActivity.this, SeekBarAndRatingBarActivity.class);
+        Intent intent = new Intent(NormalActivity.this, DateAndTimePickerActivity.class);
         startActivity(intent);
         initView();
         mBtnOK.setOnClickListener(OKListener);
