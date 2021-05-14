@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import e.linyanan.studyapplication.AlertDialog.AlertDialogActivity;
 import e.linyanan.studyapplication.AutoCompleteTextView.AutoCompleteTextViewActivity;
+import e.linyanan.studyapplication.CustomDialog.CustomDialogActivity;
 import e.linyanan.studyapplication.DateandTimePicker.DateAndTimePickerActivity;
 import e.linyanan.studyapplication.Fragment.FragmentActivity;
 import e.linyanan.studyapplication.FragmentManager.FragmentManagerActivity;
@@ -29,7 +30,7 @@ public class NormalActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Intent intent = new Intent(NormalActivity.this, FABCoordinatorLayoutActivity.class);
+        Intent intent = new Intent(NormalActivity.this, CustomDialogActivity.class);
         startActivity(intent);
         initView();
         mBtnOK.setOnClickListener(OKListener);
