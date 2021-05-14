@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="e.linyanan.studyapplication">
-
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StudyApplication">
-        <activity android:name=".CustomDialog.CustomDialogActivity"></activity>
+        <activity android:name=".Intent.IntentActivity"></activity>
+        <activity android:name=".CustomDialog.CustomDialogActivity" />
         <activity android:name=".AlertDialog.AlertDialogActivity" />
         <activity android:name=".ProgressBarAndThread.ProgressBarAndThreadActivity" />
         <activity android:name=".DateandTimePicker.DateAndTimePickerActivity" />

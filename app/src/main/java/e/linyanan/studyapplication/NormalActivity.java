@@ -16,6 +16,7 @@ import e.linyanan.studyapplication.CustomDialog.CustomDialogActivity;
 import e.linyanan.studyapplication.DateandTimePicker.DateAndTimePickerActivity;
 import e.linyanan.studyapplication.Fragment.FragmentActivity;
 import e.linyanan.studyapplication.FragmentManager.FragmentManagerActivity;
+import e.linyanan.studyapplication.Intent.IntentActivity;
 import e.linyanan.studyapplication.ProgressBarAndThread.ProgressBarAndThreadActivity;
 import e.linyanan.studyapplication.RecyclerView.RecyclerViewActivity;
 import e.linyanan.studyapplication.SeekBarAndRatingBar.SeekBarAndRatingBarActivity;
@@ -30,7 +31,7 @@ public class NormalActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Intent intent = new Intent(NormalActivity.this, CustomDialogActivity.class);
+        Intent intent = new Intent(NormalActivity.this, IntentActivity.class);
         startActivity(intent);
         initView();
         mBtnOK.setOnClickListener(OKListener);
