@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StudyApplication">
-        <activity android:name=".ProgressBarAndThread.ProgressBarAndThreadActivity"></activity>
+        <activity android:name=".AlertDialog.AlertDialogActivity"></activity>
+        <activity android:name=".ProgressBarAndThread.ProgressBarAndThreadActivity" />
         <activity android:name=".DateandTimePicker.DateAndTimePickerActivity" />
         <activity android:name=".SeekBarAndRatingBar.SeekBarAndRatingBarActivity" />
         <activity android:name=".AutoCompleteTextView.AutoCompleteTextViewActivity" />
